@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8000/api/reviews';
+const API_URL = 'https://amason-backend-production.up.railway.app:8080/api/reviews';
 
 export default {
   getReviews(productId) {
